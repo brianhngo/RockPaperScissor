@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href = "style.css"> 
+</head>
+
+
+<body>
+
+<div class="Title"> Welcome to the game of HUMAN vs AI </div>
+<div class="textAboutGame"> Humans are destroying the world again... by making a super AI. You must save the world by beating the AI in game of Rock,Paper, Scissors.
+    <br> In this game, you will have three choices:</div>
+
+
+<div class="gameOptionButtons">
+    <button id = 'rockButton' class ='rockButton'> ✊🏻 
+        <br> Rock
+    </button>
+    <button id = 'paperButton' class="paperButton"> 🖐🏻 
+        <br> Paper  </button>
+    <button id = 'scissorButton' class= 'scissorButton'> ✌🏻 
+        <br> Scissor </button>
+</div>
+
+<div class="textAboutGame"> Now its your turn...<br> Choose how many rounds you want to play </div>
+
+<div class="play">
+    <button id = 'playButton' > Click Here to Play </button>
+</div>
+
+<div class="scoreboard">
+    <div class="Player1">
+        <h4> Player Score</h4>
+        <div class="player1ScoreBox"> 
+        <div id = "playerScore"> 0 </div>
+            
+        </div>
+    </div>
+
+    <div class="Draw">
+        <h4> # of draws</h4>
+        <div class="drawScoreBox"> 
+        <div id = "drawScore"> 0 </div>
+            
+        </div>
+    </div>
+
+        
+    <div class="Player2">
+        <h4> AI Score</h4>
+        <div class="AIScoreBox"> 
+            <div id = "aiScore"> 0 </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="gameOptionButton" id = 'gameOptionButton'>
+    <button id = 'rockButton2' class ='rockButton2' onclick = "game('rock')" > ✊🏻 </button>
+    <button id = 'paperButton2' class = 'paperButton2'  onclick = "game('paper')" > 🖐🏻  </button>
+    <button id = 'scissorButton2' class = 'scissorButton2' onclick = "game('scissor')"  > ✌🏻  </button>
+</div>
+  
+<div class="bottom"> Copyright 2023 @ Brian Ngo </div>
+<script src = "javascript.js"> </script>
+
+</body>
+
+
+
+
+</html>

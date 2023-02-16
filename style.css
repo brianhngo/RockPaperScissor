@@ -1,0 +1,103 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(36, 37, 69);
+}
+.Title{
+    text-align: center;
+    font-size:64px;
+    font-weight: 800;
+    color:rgb(138, 65, 38);
+    font-family:cursive;
+    background-color: rgb(36, 37, 69);
+}
+
+.textAboutGame{
+    text-align: center;
+    font-weight:600;
+    font-size:22px;
+    font-family:cursive;
+    background-color: rgb(36,37,69);
+    color:rgb(138,65,38);
+    padding-bottom:10px;
+    
+}
+
+
+
+
+
+.inputButton{
+    background-color:rgb(36,37,69) ;
+    padding-bottom:15px;
+}
+
+
+.play {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+    
+}
+
+.gameEmojis{
+    display:flex;
+    justify-content: space-around;
+    margin-top:10px;
+    font-size: 64px;
+    gap:10px;
+  
+}
+
+.gameOptionButtons,
+.gameOptionButton{
+    display:flex;
+    justify-content: space-around;
+}
+
+.rockButton,
+.paperButton,
+.scissorButton,
+.rockButton2,
+.paperButton2,
+.scissorButton2 {
+    width:199.59px;
+    height:144px;
+    font-size:56px;
+    background-color: rgb(36,37,69) ;
+    color:rgb(138,65,38);
+    margin:20px;
+}
+
+.scoreboard{
+    display:flex;
+    justify-content: space-evenly;
+    text-align:center;
+    margin:20px;
+}
+
+.player1ScoreBox,
+.AIScoreBox,
+.drawScoreBox {
+    width:150px;
+    height:150px;
+    border: 3px solid white;
+    color:white;
+    background-color: rgb(36,37,69);
+    font-size:126px;
+    
+}
+
+h4{
+    color:white;
+}
+
+
+
+
+.bottom{
+    text-align:center;
+}
+
